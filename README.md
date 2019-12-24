@@ -11,10 +11,10 @@ There are 2 separate modules- client and server, each having its own main method
     go to the directory server, then give command  
     -> javac -cp ../../ ServerLogHandler.java    
     -> java -cp ../../ ServerLogHandler.java absolute_path_log_file true  
-    In second command, first argument is the absolute path of the log file which has to be tailed. Pls ensure it exists.
+    In second command, first argument is the local absolute path of the log file(residing locally on this server) which has to be tailed. Pls ensure it exists.
     The second argument is a boolean true/false, which tells whether to auto update file with random data at frequent          interval.
     
- 2. Now start the client  
+ 2. Now run the client main method  
    using cli-  
    go to the directory client, then run  
    -> javac LogTailClient.java  
